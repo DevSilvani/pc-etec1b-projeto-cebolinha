@@ -13,7 +13,7 @@ namespace pc_etec1b_projeto_cebolinha
             frase = frase.Replace("rr","l").Replace("rR","l").Replace("RR","L").Replace("Rr","L");
             frase = frase.Replace('r', 'l');
             frase = frase.Replace('R', 'L');
-            Console.WriteLine("Como o cebolinha diria: "+frase);
+            Console.WriteLine($"Como o cebolinha diria: {frase}");
             Console.ReadKey();
         }
     }
